@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="script.js"></script>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <h1 class="title">Todo App</h1>
+
+    <div class="all-tasks">
+        <h1 class="list-header">My list</h1>
+        <form action="">
+            <input type="text" placeholder="Enter your list">
+            <button type="submit">add</button>
+        </form>
+        <ul class="task-list">
+
+        </ul>
+    </div>
+
+    <div class="todo-list" style="display: none;">
+        <div class="todo-header">
+            <button><i class="fas fa-times"></i></button>
+            <h2 class="list-title"></h2>
+            <p class="task-count"></p>
+        </div>
+        <div class="todo-body">
+            <ul class="tasks">
+
+            </ul>
+            <div class="new-task-creator">
+                <form action="">
+                    <input type="text" placeholder="Enter your task">
+                    <button type="submit">add</button>
+                </form>
+            </div>
+        </div>
+        <div class="delete-stuff">
+            <button>Clear completed tasks</button>
+            <button>Delete list</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
