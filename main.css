@@ -6,6 +6,7 @@ body {
     grid-template-rows: 150px auto;
     color: white;
     column-gap: 20px;
+    font-family: sans-serif;
 }
 
 .title {
